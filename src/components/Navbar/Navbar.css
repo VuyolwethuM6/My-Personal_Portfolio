@@ -59,6 +59,10 @@
 .show-navbar-collapse{
     transform: translateX(0);
 }
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .navbar-collapse-content{
     padding: 40px;
 }
