@@ -1,6 +1,5 @@
 import images from "./images";
-import {FaUserGraduate, FaRocket, FaFileAlt, FaPhoneAlt, FaEnvelopeOpen, FaMapMarkerAlt} from "react-icons/fa";
-import {BiDollarCircle} from "react-icons/bi";
+import {FaUserGraduate,FaBriefcase, FaRocket, FaFileAlt, FaPhoneAlt, FaEnvelopeOpen, FaMapMarkerAlt} from "react-icons/fa";
 import {AiOutlineReload} from "react-icons/ai";
 
 const gradient = "url(#blue-gradient)" ;
@@ -15,14 +14,14 @@ const services = [
     },
     {
         id: 2,
-        icon: <BiDollarCircle style = {{ fill: gradient }} />,
+        icon: <FaBriefcase style = {{ fill: gradient }} />,
         title: "Software Dev Intern ~ CapaCiTi",
         text: "I focused on responsive design and cross-browser compatibility, actively participated in code reviews, and provided constructive feedback",
         link: 'https://uvuafrica.com/capaciti/'
     },
     {
         id: 3,
-        icon: <FaRocket style = {{ fill: gradient }} />,
+        icon: <FaBriefcase style = {{ fill: gradient }} />,
         title: "Junior Software Dev ~ Younglings",
         text: "I specialize in web app dev technologies like MERN stack & I collaborate with cross-functional teams, ensuring high-quality products",
         link: 'https://www.younglings.academy/'
