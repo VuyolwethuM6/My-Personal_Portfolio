@@ -10,7 +10,7 @@ const SingleService = ({service}) => {
         </span>
         <h4 className='item-title fs-25'>{service.title}</h4>
         <p className='fs-19 text'>{service.text}</p>
-        <a href = "/" className='item-link text-grey'>
+        <a href ={service.link} className='item-link text-grey'>
             <BsArrowRightCircle size = {30} />
         </a>
     </div>

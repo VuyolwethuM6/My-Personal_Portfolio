@@ -1,48 +1,33 @@
 import images from "./images";
-import {FaPaperPlane, FaEdit, FaRocket, FaShoppingCart, FaFileAlt, FaPhoneAlt, FaEnvelopeOpen, FaMapMarkerAlt} from "react-icons/fa";
+import {FaUserGraduate, FaRocket, FaFileAlt, FaPhoneAlt, FaEnvelopeOpen, FaMapMarkerAlt} from "react-icons/fa";
 import {BiDollarCircle} from "react-icons/bi";
-import {ImMagicWand} from "react-icons/im";
 import {AiOutlineReload} from "react-icons/ai";
 
 const gradient = "url(#blue-gradient)" ;
-
+//
 const services = [
     {
         id: 1,
-        icon: <FaPaperPlane style = {{ fill: gradient }} />,
+        icon: <FaUserGraduate style = {{ fill: gradient }} />,
         title: "BSc Physics ~ Walter Sisulu University",
-        text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
+        text: "This degree was an invaluable educational journey where I was introduced to the fundamental aspects of nature as a whole.",
+        link: 'https://www.wsu.ac.za/'
     },
     {
         id: 2,
         icon: <BiDollarCircle style = {{ fill: gradient }} />,
         title: "Software Dev Intern ~ CapaCiTi",
-        text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
+        text: "I focused on responsive design and cross-browser compatibility, actively participated in code reviews, and provided constructive feedback",
+        link: 'https://uvuafrica.com/capaciti/'
     },
     {
         id: 3,
         icon: <FaRocket style = {{ fill: gradient }} />,
         title: "Junior Software Dev ~ Younglings",
-        text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
+        text: "I specialize in web app dev technologies like MERN stack & I collaborate with cross-functional teams, ensuring high-quality products",
+        link: 'https://www.younglings.academy/'
     },
-    // {
-    //     id: 4, 
-    //     icon: <FaEdit style = {{ fill: gradient }} />,
-    //     title: "Content Creation",
-    //     text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
-    // },
-    // {
-    //     id: 5,
-    //     icon: <ImMagicWand style = {{ fill: gradient }} />,
-    //     title: "Grpahic Design",
-    //     text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
-    // },
-    // {
-    //     id: 6,
-    //     icon: <FaShoppingCart style = {{ fill: gradient }} />,
-    //     title: "Media Buying",
-    //     text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
-    // }
+
 ];
 
 const about = [
