@@ -85,7 +85,7 @@ const Contact = () => {
                   </div>
                   <ReCAPTCHA className="captcha"
                           ref={captchaRef}
-                          sitekey="6Ld2628pAAAAAMwxUkEWgQvwOU7yNF56Pyz8x_pU"
+                          sitekey="6LfxvnspAAAAAPgoBb45aXcW10dOU_dAmvLdfq2C"
                           onChange={(token) => {
                             setCaptchaVerified(!!token);
                           }}
