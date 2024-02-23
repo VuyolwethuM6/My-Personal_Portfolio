@@ -4,7 +4,7 @@ import {AiOutlineReload} from "react-icons/ai";
 
 const gradient = "url(#blue-gradient)" ;
 //
-const services = [
+const education = [
     {
         id: 1,
         icon: <FaUserGraduate style = {{ fill: gradient }} />,
@@ -87,20 +87,20 @@ const features = [
 const portfolio = [
     {
         id: 16,
-        title: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-        text: "Lorem ipsum dolor sit amet, consectetur adipisicing elits",
+        title: "The ChatApp is a messaging platform designed for seamless communication between users, It enables individuals to exchange text messages.",
+        text: "Node JS | React | MongoDB | Socket.io",
         image: images.portfolio_img_1,
     },
     {
         id: 17,
-        title: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-        text: "Lorem ipsum dolor sit amet, consectetur adipisicing elits",
+        title: "The Code X Banking system app is a digital platform that allows users to manage their finances conveniently from their mobile devices.",
+        text: "Python | CustomTkinter",
         image: images.portfolio_img_2,
     },
     {
         id: 18,
-        title: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-        text: "Lorem ipsum dolor sit amet, consectetur adipisicing elits",
+        title: "A gadget borrowing website allows users to rent or borrow various gadgets and electronic devices from other users within a community.",
+        text: "HTML | CSS | JavaScript ",
         image: images.portfolio_img_3,
     }
 ];
@@ -237,6 +237,6 @@ const projects = [
   ];
 
 
-const sections = {services, about, qualities, features, portfolio, testimonials, contact, projects};
+const sections = {education, about, qualities, features, portfolio, testimonials, contact, projects};
 
 export default sections;

@@ -10,7 +10,7 @@ import customer_img_4 from "../assets/images/icons/java.svg";
 import customer_img_5 from "../assets/images/icons/node.svg";
 import customer_img_6 from "../assets/images/icons/js.svg";
 
-import portfolio_img_1 from "../assets/images/Creative-Innovators.PNG";
+import portfolio_img_1 from "../assets/images/ChatApp.PNG";
 import portfolio_img_2 from "../assets/images/BankApp.PNG";
 import portfolio_img_3 from "../assets/images/Gadget.PNG";
 
