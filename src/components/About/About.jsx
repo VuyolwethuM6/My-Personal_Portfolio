@@ -1,7 +1,7 @@
 import React from 'react';
 import "./About.css";
 import aboutImage from '../../assets/images/header.png';
-import Services from '../Services/Services';
+import Education from '../Education/Education';
 
 
 const About = () => {
@@ -22,7 +22,7 @@ const About = () => {
                 </div>
             </div>
         </div>
-        <Services/>
+        <Education/>
     </section>
   )
 }
