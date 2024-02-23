@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import './Navbar.css';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
-import { FaPaperPlane } from 'react-icons/fa';
+import React, { useState, useEffect } from 'react';
 import logo from '../../assets/images/logo-.png';
+import { FaPaperPlane } from 'react-icons/fa';
+import './Navbar.css';
 
 const Navbar = () => {
   const [navToggle, setNavToggle] = useState(false);
@@ -79,9 +78,13 @@ const Navbar = () => {
               </ul>
               <ul className='navbar-social flex'>
                 <li className='text-white'>
-                  <Link to='' className='flex flex-center'>
+
+                  <a
+                    href='https://www.linkedin.com/in/vuyolwethu-mabhuleka-0657b42a0/'
+                    className='flex flex-center'
+                  >
                     <FaLinkedin />
-                  </Link>
+                  </a>
                 </li>
                 <li className='text-white'>
                   <a
