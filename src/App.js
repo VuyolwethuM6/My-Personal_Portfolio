@@ -4,7 +4,7 @@ import Header from './components/Header/Header';
 import "./assets/js/script";
 import About from './components/About/About';
 import Portfolio from './components/Portfolio/Portfolio';
-import Testimonials from './components/Testimonials/Testimonials';
+import Skills from './components/Skills/Skills';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import Loader from './components/Loader';
@@ -16,18 +16,18 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 3000); // Set loading to false after 3 seconds
+    }, 3000);
 
-    // Initialize Kursor.js
+    
     new kursor({
       type: 1,
       color: '#ff0000',
       removeDefaultCursor: true,
     });
 
-    // Cleanup function for the timer
+    
     return () => clearTimeout(timer);
-  }, []); // Empty dependency array to ensure it runs only once
+  }, []);
 
   return (
     
@@ -37,24 +37,14 @@ function App() {
       <>
         <Header/>
         <About/>
-        <Testimonials />
+        <Skills />
         <Portfolio />
         <Contact />
         <Footer />
       </>}
     </div>
-    // <div className="App">
-    //   <Header />
-    //   <About />
-    //   <Testimonials />
-    //   <Portfolio />
-    //   <Contact />
-    //   <Footer />
-    // </div>
   );
 }
-
-
 
 export default App;
 
