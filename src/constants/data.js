@@ -111,7 +111,7 @@ const testimonials = [
         name: "CSS3",
         text: "Styling",
         image: images.customer_img_1,
-        rating: 3
+        rating: 4
     },
     {
         id: 20,
@@ -125,7 +125,7 @@ const testimonials = [
         name: "HTML5",
         text: "Markup",
         image: images.customer_img_3,
-        rating: 2
+        rating: 4
     },
     {
         id: 22,
@@ -139,7 +139,7 @@ const testimonials = [
         name: "Node",
         text: "Framework",
         image: images.customer_img_5,
-        rating: 2
+        rating: 4
     },
     {
         id: 24,
