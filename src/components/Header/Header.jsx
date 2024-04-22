@@ -7,7 +7,7 @@ import { FaDownload } from "react-icons/fa";
 const Header = () => {
 
   function downloadCV(){
-    window.open("https://drive.google.com/file/d/1sFpXlp7NYqVgSTI5QY41cA_zaW8qb5O0/view?usp=sharing", "_blank");
+    window.open("https://drive.google.com/file/d/1fwtcPhpD25NrUal7Hbj4qAha6RO9QW8b/view?usp=sharing", "_blank");
   }
   return (
     <Motion defaultStyle={{ opacity: 0, translateY: -50, slideInLeft: -50, slideInRight: 50 }} style={{ opacity: spring(1), translateY: spring(0), slideInLeft: spring(0), slideInRight: spring(0) }}>
