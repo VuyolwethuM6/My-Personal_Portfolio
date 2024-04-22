@@ -13,7 +13,7 @@
     "formik": "^2.4.5",
     "gsap": "^3.12.5",
     "kursor": "^0.1.6",
-    "react": "^18.2.0",
+    "react": "^16.14.0",
     "react-bootstrap": "^2.10.1",
     "react-dom": "^18.2.0",
     "react-google-recaptcha": "^3.1.0",
@@ -24,7 +24,7 @@
     "react-scripts": "5.0.1",
     "react-slick": "^0.30.2",
     "react-spinners": "^0.13.8",
-    "react-toastify": "^10.0.4",
+    "react-toastify": "^7.0.4",
     "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
   },
