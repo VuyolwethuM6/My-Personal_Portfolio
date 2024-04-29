@@ -29,20 +29,6 @@ const education = [
 
 ];
 
-const qualities = [
-    {
-        id: 8,
-        icon: <FaFileAlt style = {{ fill: gradient }} />,
-        title: "Ideas & Plans",
-        text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod."
-    },
-    {
-        id: 9,
-        icon: <AiOutlineReload style = {{ fill: gradient }}  />,
-        title: "Prompt Strategies",
-        text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod."
-    }
-];
 
 const features = [
     {
