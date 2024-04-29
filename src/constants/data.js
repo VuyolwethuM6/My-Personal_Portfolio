@@ -162,6 +162,6 @@ const projects = [
   ];
 
 
-const sections = {education, about, qualities, features, portfolio, testimonials, contact, projects};
+const sections = {education, about, qualities, portfolio, testimonials, projects};
 
 export default sections;
