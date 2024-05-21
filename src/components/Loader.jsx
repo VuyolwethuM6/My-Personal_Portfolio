@@ -9,7 +9,7 @@ const Loader = () => {
     useEffect(() => {
       const timer = setTimeout(() => {
         setLoading(false);
-      }, 3000); // Set loading to false after 3 seconds
+      }, 3000); 
   
       return () => clearTimeout(timer);
     }, []);
