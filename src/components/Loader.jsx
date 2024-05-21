@@ -26,7 +26,7 @@ const Loader = () => {
     );
   };
   
-  // Style for the loader
+ 
   const override = css`
     display: block;
     margin: 0 auto;
