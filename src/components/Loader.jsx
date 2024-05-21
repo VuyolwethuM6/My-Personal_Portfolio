@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { css } from '@emotion/react';
 import { BounceLoader } from 'react-spinners';
-import './Loader.css'; // You can create a CSS file for styling your loader
+import './Loader.css'; 
 
 const Loader = () => {
     const [loading, setLoading] = useState(true);
