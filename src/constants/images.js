@@ -1,6 +1,6 @@
 import header_main_img from "../assets/images/Walter-Sisulu-University.png";
 import about_main_img from "../assets/images/TicTacToe.PNG";
-import form_main_img from "../assets/images/metric.PNG";
+
 import professionals_main_img from "../assets/images/cybersecurity-intro.png";
 import video_cover_img from "../assets/images/connect.png";
 import customer_img_1 from "../assets/images/icons/css.svg";
