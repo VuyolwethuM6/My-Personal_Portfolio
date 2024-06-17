@@ -24,12 +24,10 @@ function App() {
       removeDefaultCursor: true,
     });
 
-    
     return () => clearTimeout(timer);
   }, []);
 
   return (
-    
 
     <div className="App">
       {loading ? <Loader /> :
