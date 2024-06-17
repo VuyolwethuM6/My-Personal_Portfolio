@@ -18,7 +18,6 @@ function App() {
       setLoading(false);
     }, 3000);
 
-    
     new kursor({
       type: 1,
       color: '#ff0000',
