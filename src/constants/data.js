@@ -3,7 +3,7 @@ import {FaUserGraduate,FaBriefcase, FaRocket, FaFileAlt, FaPhoneAlt, FaEnvelopeO
 import {AiOutlineReload} from "react-icons/ai";
 
 const gradient = "url(#blue-gradient)" ;
-//
+
 const education = [
     {
         id: 1,
